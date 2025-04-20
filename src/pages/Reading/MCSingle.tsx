@@ -73,13 +73,13 @@ const MCSingle: React.FC = () => {
 
         {/* Passage */}
         <div className="bg-white p-6 rounded-lg shadow-md mb-6">
-          <p className="text-lg leading-relaxed">{exercise.text}</p>
+          <p className="text-lg leading-relaxed">{(exercise as any).text}</p>
         </div>
 
         {/* Question */}
         <div className="bg-blue-50 p-5 rounded-lg mb-6 border border-blue-200">
           <h3 className="font-bold text-lg text-blue-800 mb-2">Question</h3>
-          <p className="text-lg">{exercise.question}</p>
+          <p className="text-lg">{(exercise as any).question}</p>
         </div>
 
         {/* Options */}

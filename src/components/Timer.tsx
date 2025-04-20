@@ -3,10 +3,9 @@ import React from 'react';
 interface TimerProps {
   seconds: number;
   isRunning: boolean;
-  onFinish?: () => void;
 }
 
-const Timer: React.FC<TimerProps> = ({ seconds, isRunning, onFinish }) => {
+const Timer: React.FC<TimerProps> = ({ seconds, isRunning }) => {
   // Format the time as mm:ss
   const formatTime = (totalSeconds: number): string => {
     const minutes = Math.floor(totalSeconds / 60);

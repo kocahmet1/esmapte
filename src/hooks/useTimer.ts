@@ -31,7 +31,7 @@ export const useTimer = (totalSeconds: number = 0): UseTimerReturn => {
   }, [totalSeconds]);
 
   useEffect(() => {
-    let interval: NodeJS.Timeout | undefined;
+    let interval: ReturnType<typeof setTimeout> | undefined;
 
     if (isRunning && secondsLeft > 0) {
       interval = setInterval(() => {

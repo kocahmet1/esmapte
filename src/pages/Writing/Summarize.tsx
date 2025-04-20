@@ -114,7 +114,7 @@ const Summarize: React.FC = () => {
 
         {/* Reading passage */}
         <div className="bg-white p-6 rounded-lg shadow-md mb-6 text-lg leading-relaxed">
-          <p>{exercise.text}</p>
+          <p>{(exercise as any).text}</p>
         </div>
 
         {/* Writing area */}
