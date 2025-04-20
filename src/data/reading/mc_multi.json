@@ -1,0 +1,17 @@
+[
+  {
+    "id": "mcm1",
+    "type": "mc_multi",
+    "prompt": "Read the text and answer the multiple-choice question by selecting ALL the correct responses. More than one response is correct.",
+    "text": "Climate change mitigation requires a multi-faceted approach involving governments, businesses, and individuals. Governments can implement carbon pricing, invest in renewable energy infrastructure, and establish emissions regulations. Businesses can reduce their carbon footprint by adopting sustainable practices, developing green technologies, and setting science-based targets. Individuals can contribute by changing consumption habits, reducing energy use, and supporting climate-friendly policies through advocacy and voting. Effective climate action requires coordinated efforts across all these sectors to achieve meaningful reductions in greenhouse gas emissions.",
+    "question": "According to the text, which of the following are ways individuals can contribute to climate change mitigation?",
+    "options": [
+      { "id": "a", "text": "Advocating for climate-friendly policies", "correct": true },
+      { "id": "b", "text": "Implementing carbon pricing", "correct": false },
+      { "id": "c", "text": "Reducing personal energy consumption", "correct": true },
+      { "id": "d", "text": "Developing green technologies", "correct": false },
+      { "id": "e", "text": "Changing consumption habits", "correct": true }
+    ],
+    "timeLimitSec": 120
+  }
+]

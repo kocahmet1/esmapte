@@ -1,0 +1,17 @@
+[
+  {
+    "id": "db1",
+    "type": "drag_blank",
+    "prompt": "In the text below some words are missing. Drag words from the text box below to the appropriate place in the text. To undo an answer choice, drag the word back to the box below the text.",
+    "text": "The lower stress levels that people experience in nature can [1] physical health, in [2] by lowering blood pressure. Outside, people also may be more likely to [3] with neighbors. Those [4] can help people feel less lonely and generally happier. They also may lead to more exercise when someone [5] up a game of tag or frisbee -- or maybe suggests a bike ride.",
+    "choices": [
+      { "id": "c1", "text": "improve" },
+      { "id": "c2", "text": "part" },
+      { "id": "c3", "text": "socialize" },
+      { "id": "c4", "text": "connections" },
+      { "id": "c5", "text": "strikes" }
+    ],
+    "correctOrder": ["c1", "c2", "c3", "c4", "c5"],
+    "timeLimitSec": 180
+  }
+]

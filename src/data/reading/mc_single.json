@@ -1,0 +1,16 @@
+[
+  {
+    "id": "mcs1",
+    "type": "mc_single",
+    "prompt": "Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.",
+    "text": "The digital revolution has transformed how we access and consume information. While traditional libraries housed physical books that required in-person visits, today's digital repositories offer instant access to vast collections from anywhere with an internet connection. This shift has democratized knowledge but also raised concerns about information reliability and digital literacy skills. Despite these challenges, the ability to quickly research topics, compare multiple sources, and access specialized information has created unprecedented learning opportunities for people worldwide.",
+    "question": "What is the main purpose of this text?",
+    "options": [
+      { "id": "a", "text": "To criticize traditional libraries as outdated institutions", "correct": false },
+      { "id": "b", "text": "To highlight both benefits and challenges of digital information access", "correct": true },
+      { "id": "c", "text": "To argue that physical books are superior to digital resources", "correct": false },
+      { "id": "d", "text": "To explain how to improve digital literacy skills", "correct": false }
+    ],
+    "timeLimitSec": 90
+  }
+]

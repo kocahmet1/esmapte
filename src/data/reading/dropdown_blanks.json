@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dropdown1",
+    "type": "dropdown_blank",
+    "prompt": "Below is a text with blanks. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.",
+    "text": "It's the night of a full moon. Ever wonder what makes the full moon so special? Some might shrug it off, but for others, it's a time of heightened superstition and folklore. Many cultures [1] deep-seated beliefs about the full moon's power, from werewolves to sleep disturbances. But where do these myths come from? The full moon has been a [2] of fascination and fear throughout history. For instance, it's said that more erratic behaviour occurs during a full moon, a belief that even some law enforcement and hospital staff swear by. And then there's the lore of the werewolf, transforming under the full moon's intense glow. Interestingly, the term \"lunatic\" traces [3] this lunar lore, reflecting the ancient belief in the moon's influence over mental stability. On the lighter side, the full moon is also a time for celebration in many cultures, marking important festivals and events. So, whether you're howling at the moon or just enjoying its beauty, the full moon continues to [4] our imaginations and superstitions alike. And remember, it's all in good fun—unless, of course, you find yourself [5] into a werewolf.",
+    "optionsPerBlank": [
+      [
+        { "id": "1a", "text": "have", "correct": true },
+        { "id": "1b", "text": "need", "correct": false },
+        { "id": "1c", "text": "want", "correct": false },
+        { "id": "1d", "text": "hide", "correct": false }
+      ],
+      [
+        { "id": "2a", "text": "source", "correct": true },
+        { "id": "2b", "text": "sense", "correct": false },
+        { "id": "2c", "text": "type", "correct": false },
+        { "id": "2d", "text": "point", "correct": false }
+      ],
+      [
+        { "id": "3a", "text": "to", "correct": true },
+        { "id": "3b", "text": "from", "correct": false },
+        { "id": "3c", "text": "with", "correct": false },
+        { "id": "3d", "text": "beyond", "correct": false }
+      ],
+      [
+        { "id": "4a", "text": "capture", "correct": true },
+        { "id": "4b", "text": "destroy", "correct": false },
+        { "id": "4c", "text": "measure", "correct": false },
+        { "id": "4d", "text": "abandon", "correct": false }
+      ],
+      [
+        { "id": "5a", "text": "turning", "correct": true },
+        { "id": "5b", "text": "falling", "correct": false },
+        { "id": "5c", "text": "running", "correct": false },
+        { "id": "5d", "text": "developing", "correct": false }
+      ]
+    ],
+    "timeLimitSec": 240
+  }
+]

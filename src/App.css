@@ -1,0 +1,10 @@
+/* Custom CSS can be added here if needed beyond Tailwind */
+
+/* React-Select custom styling */
+.react-select-correct .react-select__control {
+  border-color: #10b981 !important;
+}
+
+.react-select-incorrect .react-select__control {
+  border-color: #ef4444 !important;
+}

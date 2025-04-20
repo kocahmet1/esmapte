@@ -1,0 +1,31 @@
+[
+  {
+    "id": "reorder1",
+    "type": "reorder",
+    "prompt": "The text boxes below have been placed in a random order. Restore the original order by dragging the text boxes to form a coherent paragraph.",
+    "sentences": [
+      {
+        "id": "s1",
+        "text": "Artificial intelligence has rapidly evolved from a theoretical concept to an integral part of our daily lives."
+      },
+      {
+        "id": "s2",
+        "text": "Today, AI systems power everything from voice assistants and recommendation algorithms to autonomous vehicles and medical diagnostic tools."
+      },
+      {
+        "id": "s3",
+        "text": "This technological advancement has brought both unprecedented opportunities and complex ethical challenges."
+      },
+      {
+        "id": "s4",
+        "text": "As AI continues to advance, striking the right balance between innovation and responsible development remains a critical consideration."
+      },
+      {
+        "id": "s5",
+        "text": "Questions about privacy, bias, job displacement, and autonomous decision-making require thoughtful approaches from developers, policymakers, and society at large."
+      }
+    ],
+    "correctOrder": ["s1", "s2", "s3", "s5", "s4"],
+    "timeLimitSec": 180
+  }
+]
