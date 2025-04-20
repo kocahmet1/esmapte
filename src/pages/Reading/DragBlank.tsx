@@ -61,6 +61,9 @@ const DragBlank: React.FC = () => {
     
     // Start the timer automatically
     start();
+    
+    // Debug log - remove in production
+    console.log('Available choices initialized:', exercise.choices);
   }, [exercise, start, triggerUpdate]);
 
   // Handle drag and drop
@@ -219,7 +222,13 @@ const DragBlank: React.FC = () => {
   // Generate the available choices for rendering
   const availableChoicesForRender = useCallback(() => {
     const availableChoices = getAvailableChoices();
-    return availableChoices.map((choiceId, index) => {
+    
+    // If no available choices are found in the state, use all choices as fallback
+    const choicesToRender = availableChoices.length > 0 
+      ? availableChoices 
+      : exercise.choices.map(c => c.id);
+    
+    return choicesToRender.map((choiceId, index) => {
       const choice = exercise.choices.find(c => c.id === choiceId);
       return (
         <DraggableItem
@@ -227,9 +236,9 @@ const DragBlank: React.FC = () => {
           id={choiceId}
           index={index}
           isDragDisabled={isSubmitted}
-          className="inline-flex justify-center w-auto"
+          className="inline-flex justify-center w-auto bg-white border border-gray-300 rounded-md px-3 py-2 shadow-sm hover:bg-blue-50 hover:border-blue-300"
         >
-          {choice?.text}
+          {choice?.text || `Choice ${choiceId}`}
         </DraggableItem>
       );
     });
